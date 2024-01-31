@@ -1,0 +1,435 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.cname {
+    display: flex;
+    background-color: rgb(245, 240, 173);
+}
+
+.cname img {
+    height: 100px;
+    width: 100px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.text {
+    color: blueviolet;
+    font-size: 20px;
+    margin: auto;
+}
+
+.social img {
+    width: 40px;
+    height: 40px;
+}
+
+.social {
+    display: flex;
+    margin-right: 20px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(22, 23, 23);
+    padding: 5px;
+    gap: 2px;
+}
+
+.navbar li {
+    display: inline;
+    list-style: none;
+    padding: 30px;
+    color: white;
+
+
+}
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.bimg {
+    height: 90%;
+    width: 60%;
+
+
+}
+
+.bimg img {
+    height: 400px;
+    width: 700px;
+
+}
+
+.banner {
+    display: flex;
+    background-image: url(back.jpg);
+    max-height: 400px;
+
+}
+
+.notice {
+    background-color: black;
+    width: 30%;
+
+    margin-top: 16px;
+    margin-left: 6%;
+
+
+}
+
+.hnotice {
+    background-color: aquamarine;
+    height: 50px;
+    text-align: center;
+}
+
+.hnotice h2 {
+    padding: 15px;
+    color: red;
+
+}
+
+.bnoties {
+    color: rgb(239, 247, 239);
+    overflow: hidden;
+}
+
+.bnoties h4 {
+    padding: 6px;
+    margin-left: 3%;
+    font-weight: 800;
+
+
+}
+
+.bnoties span {
+    color: red;
+}
+
+.about {
+
+    height: 400px;
+    margin-top: 2%;
+
+
+
+
+}
+
+.habout {
+
+
+
+    padding: 12px;
+    color: azure;
+    text-align: center;
+    background-color: rgb(49, 195, 88);
+
+}
+
+.babout {
+    display: flex;
+
+}
+
+
+.atxt {
+
+    display: inline;
+
+    width: 50%;
+    margin-top: 6%;
+    margin-left: 6%;
+
+
+
+}
+
+.atxt p {
+    margin-top: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+}
+
+.atxt span {
+    color: red;
+    font-size: 19px;
+}
+
+.atxt h2 {
+    text-align: center;
+}
+
+.aimg {
+
+    height: 400px;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+
+}
+
+.aimg img {
+    width: 350px;
+    height: 300px;
+    margin-top: 50px;
+    margin-left: 100px;
+
+
+
+}
+
+.fac {
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(91, 91, 206);
+    padding: 4px;
+    color: aliceblue;
+    margin-top: 15px;
+}
+
+.bca {
+    display: flex;
+
+
+
+
+}
+
+.card {
+    height: 362px;
+    width: 20%;
+    background-image: url(card.jpg);
+    margin-left: 4%;
+    border-radius: 7%;
+    margin-top: 35px;
+    border: 2PX solid black;
+
+
+}
+
+#bhod{
+    color: blue;
+    background-color: yellow;
+}
+.cimg {
+
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    margin-top: 55px;
+    text-align: center;
+}
+
+.cimg img {
+    border-color: blueviolet;
+    height: 150px;
+    width: 100px;
+    border: 2px sloid;
+    box-shadow: 2px 2px 2px 5px rgb(209, 212, 213);
+}
+
+.himg {
+    height: 60px;
+
+}
+
+.ccontent {
+    text-align: center;
+    margin-top: 9px;
+    padding: 4px;
+}
+
+.button {
+    text-align: center;
+    margin-top: 18px;
+
+}
+
+.button button {
+    background-color: rgb(88, 136, 215);
+    border-style: none;
+    padding: 9px;
+    border-radius: 50px;
+    color: white;
+}
+
+.empty {
+    height: 362px;
+    width: 12%;
+}
+
+.contact h2 {
+    text-align: center;
+    margin-top: 2%;
+    background-color: aliceblue;
+    color: rgb(10, 117, 171);
+}
+
+.cinfo {
+    display: flex;
+    background-color: aliceblue;
+}
+
+.info_img {
+    height: 400px;
+    width: 50%;
+    margin-left: 3%;
+    text-align: center;
+}
+
+.info_img img {
+    height: 300px;
+    margin-top: 5%;
+
+}
+
+.iform {
+    height: 400px;
+    width: 40%;
+    margin-left: 9%;
+
+}
+
+label {
+    display: block;
+    padding: 2%;
+    font-size: 20pxpx;
+}
+
+input {
+    margin-left: 8%;
+    font-size: 15px;
+    border-radius: 15%;
+}
+
+textarea {
+    margin-left: 8%;
+    padding: 7px;
+
+    border-radius: 15%;
+
+}
+
+.but {
+    float: right;
+    margin-right: 40px;
+    padding: 6%;
+
+
+}
+
+.but button {
+    background-color: rgb(25, 25, 167);
+    padding: 7px;
+    color: rgb(231, 227, 227);
+    border-radius: 12px;
+}
+
+.bg {
+    background-image: url("Blog-Image-143.jpg");
+
+}
+
+.forter {
+    display: flex;
+    height: 300px;
+    color: rgb(220, 207, 207);
+    background-color: rgba(15, 11, 107, 0.9);
+
+
+
+}
+
+.information {
+
+    width: 28%;
+    margin-left: 3%;
+    padding: 12px;
+
+
+}
+
+.information p {
+    margin-top: 12px;
+
+    padding: 4px;
+
+}
+
+.program {
+
+    width: 15%;
+
+    padding: 1%;
+}
+
+.program ul {
+    padding: 15px;
+}
+
+.program li {
+    padding: 5px;
+    list-style-type: square;
+}
+
+.program p {
+    margin-left: 3%;
+    margin-top: 12px;
+}
+
+
+
+
+.location {
+    width: 20%;
+
+    padding: 1%;
+
+}
+
+.location iframe {
+    padding: 17px;
+    margin-top: 12px;
+}
+
+.last {
+
+    display: flex;
+    background-color: rgb(85, 81, 81);
+    padding: 5px;
+    color: black;
+    font-weight: 700;
+}
+
+.last1 {
+    width: 50%;
+
+
+    text-align: right;
+    margin-right: 12px;
+    color: rgb(61, 233, 61);
+}
+
+.lastp {
+    width: 50%;
+}
